@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
-
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react-v1';
 function App() {
   return (
     <div className="App">
